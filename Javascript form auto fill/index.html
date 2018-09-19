@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<script src="auto-fill.js"></script>
+	<title>JavaScript Auto-fill script</title>
+</head>
+<body>
+<form class="form">
+	<p class="form__paragraph">
+		Vul dit formulier in aub:
+	</p>
+	<input type="text" id="name1" placeholder="Name" onkeyup="copyName();" />
+	<input type="email" placeholder="E-mail" id="email" onkeyup="copyName();" />
+	<input type="tel" placeholder="Phonenumber" id="phone" onkeyup="copyName();" />
+	<select name="landen" id="landen" onchange="copyName();">
+		<option value="nederland">Nederland</option>
+		<option value="belgie">Belgie</option>
+		<option value="duitsland">Duitsland</option>
+		<option value="engeland">Engeland</option>
+	</select>
+</form>
+<form class="form">
+	<p class="form__paragraph">
+		Copy of content above:
+	</p>
+	<input type="text" id="name2" placeholder="Name">
+	<input type="email" placeholder="E-mail" id="email2">
+	<input type="tel" placeholder="Phonenumber" id="phone2">
+	<select name="landen2" id="landen2">
+		<option value="nederland">Nederland</option>
+		<option value="belgie">Belgie</option>
+		<option value="duitsland">Duitsland</option>
+		<option value="engeland">Engeland</option>
+	</select>
+</form>
+<input type="submit" value="Send">
+</body>
+</html>
