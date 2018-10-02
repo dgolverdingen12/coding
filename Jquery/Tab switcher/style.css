@@ -1,0 +1,53 @@
+body {
+	font-family: Arial;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.tabs {
+	border: 1px solid #ccc;
+	background-color: #dddddd;
+	display: flex;
+	justify-content: space-between;
+}
+
+.grey {
+	color: #979797;
+}
+
+.tabs button {
+	color: #979797;
+	background-color: #e6e6e6;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 10px;
+	width: 33.3%;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+.tabs button:hover {
+	background-color: #ddd;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.tabs button.active {
+	background-color: #fff;
+	color: #3c3c3c;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
