@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<title>Tab switcher</title>
+</head>
+<body>
+	<div class="container">
+		<div class="tab">
+			<button class="tablinks" onclick="openTab(event, 'Config')"><i class="fas fa-cog grey"></i> Config</button>
+			<button class="tablinks" onclick="openTab(event, 'Alerts')"><i class="fas fa-exclamation grey"></i> Alerts</button>
+			<button class="tablinks" onclick="openTab(event, 'Status')"><i class="far fa-check-circle grey"></i> Status</button>
+		</div>
+		<div id="Config" class="tabcontent">
+			<h3>Config</h3>
+		</div>
+		<div id="Alerts" class="tabcontent">
+			<h3>Alerts</h3>
+		</div>
+		<div id="Status" class="tabcontent">
+			<h3>Status</h3>
+		</div>
+	</div>
+</body>
+</html>
