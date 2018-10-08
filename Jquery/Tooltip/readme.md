@@ -1,1 +1,1 @@
-*Run gulp watch*
+*Run gulp *
